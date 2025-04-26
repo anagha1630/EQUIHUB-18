@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgChartsModule } from 'ng2-charts';
-import { HttpClientModule } from '@angular/common/http';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
@@ -21,27 +21,20 @@ import { Routes } from '@angular/router';
 
   
 // Ensure the correct path to the VestingScheduleComponent is used
-@NgModule({
-  declarations: [
-    AppComponent,
-    DashboardComponent,
-    StockCardComponent,
-    VestingProgressComponent,
-    SideNavComponent,
-    EsopDashboardComponent,
-    EsopVestingProgressComponent,
-    VestingScheduleComponent,
-    TooltipDirective
-  ],
-  imports: [
-    [CommonModule],
-    BrowserModule,
-    NgChartsModule,
-    HttpClientModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
+@NgModule({ declarations: [
+        AppComponent,
+        DashboardComponent,
+        StockCardComponent,
+        VestingProgressComponent,
+        SideNavComponent,
+        EsopDashboardComponent,
+        EsopVestingProgressComponent,
+        VestingScheduleComponent,
+        TooltipDirective
+    ],
+    bootstrap: [AppComponent], imports: [[CommonModule],
+        BrowserModule,
+        NgChartsModule], providers: [provideHttpClient(withInterceptorsFromDi())] })
 export class AppModule { }
 
 
