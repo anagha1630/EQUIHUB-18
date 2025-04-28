@@ -1,0 +1,333 @@
+[
+  {
+    "emp_id": "2001",
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma@example.com",
+    "pwd": "password123",
+    "taxes": {
+      "federal_tax_rate": 20,
+      "state_tax_rate": 5,
+      "local_tax_rate": 2
+    },
+    "awards": [
+      {
+        "type": "rsu",
+        "symbols": [
+          {
+            "symbol": "TCS",
+            "award_price": 3000,
+            "granted": 100,
+            "grant_date": "2023-01-01"
+          },
+          {
+            "symbol": "INFY",
+            "award_price": 1500,
+            "granted": 50,
+            "grant_date": "2023-06-01"
+          }
+        ]
+      },
+      {
+        "type": "esop",
+        "symbols": [
+          {
+            "symbol": "TCS",
+            "award_price": 3000,
+            "discounted_price": 2500,
+            "granted": 100,
+            "grant_date": "2023-01-01"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "emp_id": "2002",
+    "name": "Priya Patel",
+    "email": "priya.patel@example.com",
+    "pwd": "password456",
+    "taxes": {
+      "federal_tax_rate": 22,
+      "state_tax_rate": 6,
+      "local_tax_rate": 3
+    },
+    "awards": [
+      {
+        "type": "rsu",
+        "symbols": [
+          {
+            "symbol": "HCL",
+            "award_price": 1000,
+            "granted": 75,
+            "grant_date": "2023-02-15"
+          }
+        ]
+      },
+      {
+        "type": "esop",
+        "symbols": [
+          {
+            "symbol": "HCL",
+            "award_price": 1000,
+            "discounted_price": 800,
+            "granted": 80,
+            "grant_date": "2023-02-15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "emp_id": "2003",
+    "name": "Rohit Kumar",
+    "email": "rohit.kumar@example.com",
+    "pwd": "password789",
+    "taxes": {
+      "federal_tax_rate": 25,
+      "state_tax_rate": 4,
+      "local_tax_rate": 2
+    },
+    "awards": [
+      {
+        "type": "rsu",
+        "symbols": [
+          {
+            "symbol": "WIPRO",
+            "award_price": 4000,
+            "granted": 120,
+            "grant_date": "2023-03-20"
+          }
+        ]
+      },
+      {
+        "type": "esop",
+        "symbols": [
+          {
+            "symbol": "WIPRO",
+            "award_price": 4000,
+            "discounted_price": 3500,
+            "granted": 110,
+            "grant_date": "2023-03-20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "emp_id": "2004",
+    "name": "Meera Reddy",
+    "email": "meera.reddy@example.com",
+    "pwd": "password012",
+    "taxes": {
+      "federal_tax_rate": 18,
+      "state_tax_rate": 5,
+      "local_tax_rate": 3
+    },
+    "awards": [
+      {
+        "type": "rsu",
+        "symbols": [
+          {
+            "symbol": "TECHMAHINDRA",
+            "award_price": 5000,
+            "granted": 50,
+            "grant_date": "2023-04-05"
+          }
+        ]
+      },
+      {
+        "type": "esop",
+        "symbols": [
+          {
+            "symbol": "TECHMAHINDRA",
+            "award_price": 5000,
+            "discounted_price": 4500,
+            "granted": 60,
+            "grant_date": "2023-04-05"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "emp_id": "2005",
+    "name": "Karan Singh",
+    "email": "karan.singh@example.com",
+    "pwd": "password345",
+    "taxes": {
+      "federal_tax_rate": 28,
+      "state_tax_rate": 7,
+      "local_tax_rate": 4
+    },
+    "awards": [
+      {
+        "type": "rsu",
+        "symbols": [
+          {
+            "symbol": "ADANI",
+            "award_price": 1200,
+            "granted": 30,
+            "grant_date": "2023-05-10"
+          }
+        ]
+      },
+      {
+        "type": "esop",
+        "symbols": [
+          {
+            "symbol": "ADANI",
+            "award_price": 1200,
+            "discounted_price": 1000,
+            "granted": 40,
+            "grant_date": "2023-05-10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "emp_id": "2006",
+    "name": "Simran Gupta",
+    "email": "simran.gupta@example.com",
+    "pwd": "password678",
+    "taxes": {
+      "federal_tax_rate": 21,
+      "state_tax_rate": 5,
+      "local_tax_rate": 3
+    },
+    "awards": [
+      {
+        "type": "rsu",
+        "symbols": [
+          {
+            "symbol": "MINDTREE",
+            "award_price": 2500,
+            "granted": 90,
+            "grant_date": "2023-06-01"
+          }
+        ]
+      },
+      {
+        "type": "esop",
+        "symbols": [
+          {
+            "symbol": "MINDTREE",
+            "award_price": 2500,
+            "discounted_price": 2100,
+            "granted": 100,
+            "grant_date": "2023-06-01"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "emp_id": "2007",
+    "name": "Tanvi Sharma",
+    "email": "tanvi.sharma@example.com",
+    "pwd": "password901",
+    "taxes": {
+      "federal_tax_rate": 23,
+      "state_tax_rate": 6,
+      "local_tax_rate": 4
+    },
+    "awards": [
+      {
+        "type": "rsu",
+        "symbols": [
+          {
+            "symbol": "LUPIN",
+            "award_price": 1800,
+            "granted": 60,
+            "grant_date": "2023-07-10"
+          }
+        ]
+      },
+      {
+        "type": "esop",
+        "symbols": [
+          {
+            "symbol": "LUPIN",
+            "award_price": 1800,
+            "discounted_price": 1500,
+            "granted": 70,
+            "grant_date": "2023-07-10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "emp_id": "2008",
+    "name": "Ravi Desai",
+    "email": "ravi.desai@example.com",
+    "pwd": "password234",
+    "taxes": {
+      "federal_tax_rate": 19,
+      "state_tax_rate": 4,
+      "local_tax_rate": 3
+    },
+    "awards": [
+      {
+        "type": "rsu",
+        "symbols": [
+          {
+            "symbol": "RELIANCE",
+            "award_price": 1500,
+            "granted": 80,
+            "grant_date": "2023-08-15"
+          }
+        ]
+      },
+      {
+        "type": "esop",
+        "symbols": [
+          {
+            "symbol": "RELIANCE",
+            "award_price": 1500,
+            "discounted_price": 1200,
+            "granted": 90,
+            "grant_date": "2023-08-15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "emp_id": "2009",
+    "name": "Neha Joshi",
+    "email": "neha.joshi@example.com",
+    "pwd": "password567",
+    "taxes": {
+      "federal_tax_rate": 24,
+      "state_tax_rate": 5,
+      "local_tax_rate": 3
+    },
+    "awards": [
+      {
+        "type": "rsu",
+        "symbols": [
+          {
+            "symbol": "BHARTIARTL",
+            "award_price": 500,
+            "granted": 150,
+            "grant_date": "2023-09-01"
+          }
+        ]
+      },
+      {
+        "type": "esop",
+        "symbols": [
+          {
+            "symbol": "BHARTIARTL",
+            "award_price": 500,
+            "discounted_price": 400,
+            "granted": 160,
+            "grant_date": "2023-09-01"
+          }
+        ]
+      }
+    ]
+  }
+]
+ 
